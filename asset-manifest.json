@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/tjunjet/my-personal-website.git/static/css/main.536ca8b9.css",
+    "main.js": "/tjunjet/my-personal-website.git/static/js/main.f5fe9382.js",
+    "static/js/787.bbe01249.chunk.js": "/tjunjet/my-personal-website.git/static/js/787.bbe01249.chunk.js",
+    "static/media/about-me-photo.png": "/tjunjet/my-personal-website.git/static/media/about-me-photo.5576ad64cea284cce036.png",
+    "static/media/tjunjet_selfie.jpg": "/tjunjet/my-personal-website.git/static/media/tjunjet_selfie.42fab8d8ca11a257af02.jpg",
+    "index.html": "/tjunjet/my-personal-website.git/index.html",
+    "main.536ca8b9.css.map": "/tjunjet/my-personal-website.git/static/css/main.536ca8b9.css.map",
+    "main.f5fe9382.js.map": "/tjunjet/my-personal-website.git/static/js/main.f5fe9382.js.map",
+    "787.bbe01249.chunk.js.map": "/tjunjet/my-personal-website.git/static/js/787.bbe01249.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.536ca8b9.css",
+    "static/js/main.f5fe9382.js"
+  ]
+}
