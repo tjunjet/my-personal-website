@@ -4,6 +4,7 @@ import Home from './home'
 import Education from './education'
 import Experience from './experience'
 import Projects from './projects'
+import Skills from "./skills"
 import Certifications from './certifications'
 import Volunteering from './volunteering'
 
