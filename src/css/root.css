@@ -1,3 +1,7 @@
+section {
+  transition: width 3s;
+}
+
 .Root {
   text-align: center;
 }

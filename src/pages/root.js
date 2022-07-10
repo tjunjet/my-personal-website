@@ -24,18 +24,20 @@ export default function Root() {
           <li><a href="/certifications">Certifications</a></li>
           <li><a href="/volunteering">Volunteering</a></li>
         </nav>
-        <BrowserRouter>
-          <Routes>
-            <Route path = "/home" element = {<Home />} />
-            <Route path = "/about" element = {<About />} />
-            <Route path = "/education" element = {<Education />} />
-            <Route path = "/experience" element = {<Experience />} />
-            <Route path = "/projects" element = {<Projects />} />
-            <Route path = "/skills" element = {<Skills />} />
-            <Route path = "/certifications" element = {<Certifications />} />
-            <Route path = "/volunteering" element = {<Volunteering />} />
-          </Routes>
-        </BrowserRouter>
+        <section>
+          <BrowserRouter>
+            <Routes>
+              <Route path = "/home" element = {<Home />} />
+              <Route path = "/about" element = {<About />} />
+              <Route path = "/education" element = {<Education />} />
+              <Route path = "/experience" element = {<Experience />} />
+              <Route path = "/projects" element = {<Projects />} />
+              <Route path = "/skills" element = {<Skills />} />
+              <Route path = "/certifications" element = {<Certifications />} />
+              <Route path = "/volunteering" element = {<Volunteering />} />
+            </Routes>
+          </BrowserRouter>
+        </section>
       </div>
     );
   }
