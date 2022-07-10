@@ -13,7 +13,6 @@ import '../css/root.css';
 export default function Root() {
     return (
       <div>
-        <h1 className = "Title">My Website</h1>
         <nav>
           <li><a href="/home">Home</a></li>
           <li><a href="/education">Education</a></li>
@@ -21,7 +20,7 @@ export default function Root() {
           <li><a href="/projects">Projects</a></li>
           <li><a href="/skills">Skills</a></li>
           <li><a href="/certifications">Certifications</a></li>
-          <li><a href="/volunteering">Skills</a></li>
+          <li><a href="/volunteering">Volunteering</a></li>
         </nav>
         <BrowserRouter>
           <Routes>

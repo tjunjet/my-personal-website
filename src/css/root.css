@@ -8,6 +8,65 @@
   color: rgb(50, 50, 50);
 }
 
+/* Move NavBar to the right of the header */
+nav {
+  float: top;
+  text-align: center;
+}
+
+/* Style for the unordered list in my NavBar */
+nav ul {
+  /* Remove the top margin */
+  margin: 0;
+  /* Remove Padding */
+  padding: 0;
+  /* Remove the bullet points */
+  list-style: none;
+}
+
+/* For the individual list items */
+nav li {
+  /* Makes them go side by side */
+  display: inline-block;
+  margin-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* For position of block to be relative to list item */
+  position: relative;
+}
+
+/* Decorating the hyperlink */
+nav a {
+  display: inline-block;
+  /* Removing the underline */
+  text-decoration: none;
+  /* All caps */
+  text-transform: uppercase;
+}
+
+/* Hovering ability */
+nav a:hover {
+  color: #000;
+}
+
+/* Making the black rectangles come out at the top upon hover */
+nav a::before {
+  content: "";
+  /* This releases the block */
+  display: block;
+  height: 5px;
+  /* Starting width before hover */
+  width: 0%;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+}
+
+/* Upon the hover, we change the width to 100% */
+nav a:hover::before {
+  width: 100%;
+}
+
 .Root-header {
   background-color: #282c34;
   min-height: 100vh;
