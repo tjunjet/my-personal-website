@@ -1,24 +1,9 @@
-import tjunjet_selfie from './assets/images/tjunjet_selfie.jpg';
-import './App.css';
+import Root from './pages/root'
+import './css/App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={tjunjet_selfie} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Root />
   );
 }
 
