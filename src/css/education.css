@@ -1,14 +1,8 @@
-.Root {
+.Education {
   text-align: center;
 }
 
-.Title {
-  margin-left: 40px;
-  font-size: 25px;
-  color: rgb(50, 50, 50);
-}
-
-.Root-header {
+.Education-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;

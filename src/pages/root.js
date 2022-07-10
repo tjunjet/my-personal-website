@@ -1,26 +1,38 @@
-import tjunjet_selfie from '../assets/images/tjunjet_selfie.jpg';
+import {BrowserRouter, Route, Routes} from 'react-router-dom'
+
+import Home from './home'
+import Education from './education'
+import Experience from './experience'
+import Projects from './projects'
+import Certifications from './certifications'
+import Volunteering from './volunteering'
+
 import '../css/root.css';
 
 export default function Root() {
     return (
-      <div className="Root">
-        <header className="Root-header">
-          <img src={tjunjet_selfie} className="My-selfie" alt="logo" />
-          <p className="My-Name">
-            Ong Tjun Jet
-          </p>
-          <p className = "Role">
-            Electrical and Computer Engineering @ Carnegie Mellon University
-          </p>
-          <a
-            className="Root-link"
-            href="https://sg.linkedin.com/in/tjun-jet-ong"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            LinkedIn
-          </a>
-        </header>
+      <div>
+        <h1 className = "Title">My Website</h1>
+        <nav>
+          <li><a href="/home">Home</a></li>
+          <li><a href="/education">Education</a></li>
+          <li><a href="/experience">Work Experience</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/skills">Skills</a></li>
+          <li><a href="/certifications">Certifications</a></li>
+          <li><a href="/volunteering">Skills</a></li>
+        </nav>
+        <BrowserRouter>
+          <Routes>
+            <Route path = "/home" element = {<Home />} />
+            <Route path = "/education" element = {<Education />} />
+            <Route path = "/experience" element = {<Experience />} />
+            <Route path = "/projects" element = {<Projects />} />
+            <Route path = "/skills" element = {<Skills />} />
+            <Route path = "/certifications" element = {<Certifications />} />
+            <Route path = "/volunteering" element = {<Volunteering />} />
+          </Routes>
+        </BrowserRouter>
       </div>
     );
   }
