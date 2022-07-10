@@ -1,3 +1,7 @@
+td {
+  padding-right: 50px;
+}
+
 .About {
   text-align: center;
 }
@@ -11,12 +15,17 @@
   color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  padding-top: 36px;
   padding-left: 100px;
 }
 .Description {
-  font-size: 17px;
-  /* padding-left: 10px; */
+  font-size: 23px;
+  text-align: justify;
+}
+
+.My-Photo {
+  margin-top: 10px;
+  height: 70vmin;
+  pointer-events: none;
 }
 
 h1 {

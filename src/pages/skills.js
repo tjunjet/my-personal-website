@@ -6,9 +6,6 @@ export default function Skills() {
         <body>
             <div className = "Skills-header">
                 <h1>SKILLS</h1>
-                <table>
-
-                </table>
             </div>
         </body>
     )

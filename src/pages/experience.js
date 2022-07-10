@@ -32,7 +32,7 @@ export default function Experience() {
                    {/* Teaching Assistant*/}
                    <tr className = "Company-name">
                         <td width="80%">Teaching Assistant</td>
-                        <td className = "Date" width="20%">Dec 2021 - May 2022</td>
+                        <td className = "Date" width="30%">Dec 2021 - May 2022</td>
                     </tr>
                     <tr>
                         <td className = "Job-scope">School of Computer Science, Carnegie Mellon University, United States of America</td>
@@ -65,7 +65,7 @@ export default function Experience() {
                    {/* Cybersecurity Intern*/}
                    <tr className = "Company-name">
                         <td width="80%">Cybersecurity Intern</td>
-                        <td className = "Date" width="20%">Jun 2021 - Jul 2022</td>
+                        <td className = "Date" width="30%">Jun 2021 - Jul 2022</td>
                     </tr>
                     <tr>
                         <td className = "Job-scope">Defence Science Organization, Singapore</td>
@@ -97,7 +97,7 @@ export default function Experience() {
                    {/* Artificial Intelligence Intern*/}
                    <tr className = "Company-name">
                         <td width="80%">Artificial Intelligence Intern</td>
-                        <td className = "Date" width="20%">Feb 2021 - Jun 2022</td>
+                        <td className = "Date" width="30%">Feb 2021 - Jun 2022</td>
                     </tr>
                     <tr>
                         <td className = "Job-scope">Defence Science and Technology Agency, Singapore</td>
@@ -130,7 +130,7 @@ export default function Experience() {
                    {/* Artificial Intelligence Intern*/}
                    <tr className = "Company-name">
                         <td width="80%">Member of Teaching Team</td>
-                        <td className = "Date" width="20%">Apr 2021 - May 2021</td>
+                        <td className = "Date" width="30%">Apr 2021 - May 2021</td>
                     </tr>
                     <tr>
                         <td className = "Job-scope">Stanford University, United States of America</td>
@@ -159,7 +159,7 @@ export default function Experience() {
                    {/* Platoon Commander*/}
                    <tr className = "Company-name">
                         <td width="80%">Platoon Commander</td>
-                        <td className = "Date" width="20%">Jan 2019 - Jan 2021</td>
+                        <td className = "Date" width="30%">Jan 2019 - Jan 2021</td>
                     </tr>
                     <tr>
                         <td className = "Job-scope">10 C4I, Singapore Army, Singapore Armed Forces</td>
@@ -210,7 +210,7 @@ export default function Experience() {
                    <hr></hr>
                    <tr className = "Company-name">
                         <td width="80%">Civil Engineering Intern</td>
-                        <td className = "Date" width="20%">Dec 2018 - Dec 2018</td>
+                        <td className = "Date" width="30%">Dec 2018 - Dec 2018</td>
                     </tr>
                     <tr>
                         <td className = "Job-scope">Land Transport Authority, Singapore</td>
