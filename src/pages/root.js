@@ -10,7 +10,7 @@ export default function Root() {
             Ong Tjun Jet
           </p>
           <p className = "Role">
-            Electrical and Computer Engineering; Carnegie Mellon University
+            Electrical and Computer Engineering @ Carnegie Mellon University
           </p>
           <a
             className="Root-link"
