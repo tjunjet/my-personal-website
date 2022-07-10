@@ -15,7 +15,7 @@ export default function Root() {
     return (
       <div>
         <nav>
-          <li><a href="/home">Home</a></li>
+          <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/education">Education</a></li>
           <li><a href="/experience">Work Experience</a></li>
@@ -27,7 +27,7 @@ export default function Root() {
         <section>
           <BrowserRouter>
             <Routes>
-              <Route path = "/home" element = {<Home />} />
+              <Route path = "/" element = {<Home />} />
               <Route path = "/about" element = {<About />} />
               <Route path = "/education" element = {<Education />} />
               <Route path = "/experience" element = {<Experience />} />

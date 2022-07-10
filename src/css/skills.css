@@ -1,8 +1,8 @@
-.Experience {
+.Skills {
   text-align: center;
 }
 
-.Experience-header {
+.Skills-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -15,7 +15,7 @@
   padding-left: 100px;
 }
 
-.Company-name {
+.Skill-name {
   font-weight: bold;
   font-size: 25px;
 }

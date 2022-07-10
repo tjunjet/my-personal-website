@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.Experience-header {
+.Projects-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -15,7 +15,7 @@
   padding-left: 100px;
 }
 
-.Company-name {
+.Project-name {
   font-weight: bold;
   font-size: 25px;
 }
