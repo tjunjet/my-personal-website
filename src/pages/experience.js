@@ -19,14 +19,12 @@ export default function Experience() {
                     <tr>
                         <td className = "Description">
                             <br></br>
-                            <b>Awards and Recognitions:</b>
+                            <b>Department:</b> Unmanned Ground Vehicles, Land Systems
+                            <br></br>
+                            <br></br>
+                            <b>Description:</b>
                             <ul>
-                                <li>Spring 2022 Dean's List</li>
-                                <li>Fall 2021 Dean's List</li>
-                                <li>Electrical Lead of Blitz Booth - Champion, CMU Spring Carnival</li>
-                                <li>Vocal International Championship of Collegiate A Cappella (ICCA) Regional Runners-up</li>
-                                <li>Tartanhacks 2022 - Figma Award for Best Design</li>
-                                <li>Hack112 - Top 5 Teams (Honorable Mention)</li>
+                                <li>To be updated</li>
                             </ul>
                         </td>
                     </tr>
@@ -37,19 +35,29 @@ export default function Experience() {
                         <td className = "Date" width="20%">Dec 2021 - May 2022</td>
                     </tr>
                     <tr>
-                        <td className = "Job-scope">School of Computer Science, Carnegie Mellon University <br></br> Pittsburgh, Pennsylvania, United States of America</td>
+                        <td className = "Job-scope">School of Computer Science, Carnegie Mellon University, United States of America</td>
                     </tr>
                     <tr>
                         <td className = "Description">
                             <br></br>
-                            <b>Awards and Recognitions:</b>
+                            <b>Department:</b> School of Computer Science
+                            <br></br>
+                            <b>Course: </b> 15-112: Fundamentals of Programming  
+                            <br></br>
+                            <br></br>
+                            <b>Description:</b>
                             <ul>
-                                <li>Spring 2022 Dean's List</li>
-                                <li>Fall 2021 Dean's List</li>
-                                <li>Electrical Lead of Blitz Booth - Champion, CMU Spring Carnival</li>
-                                <li>Vocal International Championship of Collegiate A Cappella (ICCA) Regional Runners-up</li>
-                                <li>Tartanhacks 2022 - Figma Award for Best Design</li>
-                                <li>Hack112 - Top 5 Teams (Honorable Mention)</li>
+                                <li>I was an undergraduate teaching assistant for an introductory programming course: 15-112: Fundamentals of Programming.</li>
+                                <li>Being a fast-paced course taught in Python, I prepared weekly recitations, summary notes, and guided students to improve their programming methods.</li>
+                                <li>Mentored 10 students to pursue a final term project using model-view-controller framework in the course.</li>
+                                <li>Graded homeworks, quizzes, examinations, and projects. Organized one-on-one and small group sessions to re-emphasize concepts.</li>
+                                <li>Held weekly office hours for students to clarify misconceptions in their conceptual understanding and provide tips to improve coding style.</li>
+                            </ul>
+                            <b>Skills:</b>
+                            <ul>
+                                <li>Python</li>
+                                <li>Teaching</li>
+                                <li>Leadership</li>
                             </ul>
                         </td>
                     </tr>
@@ -65,14 +73,23 @@ export default function Experience() {
                     <tr>
                         <td className = "Description">
                             <br></br>
-                            <b>Awards and Recognitions:</b>
+                            <b>Department:</b> Information
+                            <br></br>
+                            <br></br>
+                            <b>Description:</b>
                             <ul>
-                                <li>Spring 2022 Dean's List</li>
-                                <li>Fall 2021 Dean's List</li>
-                                <li>Electrical Lead of Blitz Booth - Champion, CMU Spring Carnival</li>
-                                <li>Vocal International Championship of Collegiate A Cappella (ICCA) Regional Runners-up</li>
-                                <li>Tartanhacks 2022 - Figma Award for Best Design</li>
-                                <li>Hack112 - Top 5 Teams (Honorable Mention)</li>
+                                <li>Utilized Open Quantum Safe OpenSSL to generate key pairs and x509 certificates using classical encryption and hybrid encryption with post quantum cryptography.</li>
+                                <li>Decrypted and analyzed the difference between the two cryptographic schemes using Wireshark.</li>
+                                <li>Learned computer networking, operating systems, cybersecurity and cryptography.</li>
+                            </ul>
+                            <b>Skills:</b>
+                            <ul>
+                                <li>C Programming</li>
+                                <li>Linux</li>
+                                <li>Cryptography</li>
+                                <li>Computer Networking</li>
+                                <li>Post Quantum Cryptography</li>
+                                <li>Wireshark</li>
                             </ul>
                         </td>
                     </tr>
@@ -88,14 +105,53 @@ export default function Experience() {
                     <tr>
                         <td className = "Description">
                             <br></br>
-                            <b>Awards and Recognitions:</b>
+                            <b>Department:</b> Innovation Lab, Air Systems
+                            <br></br>
+                            <br></br>
+                            <b>Description:</b>
                             <ul>
-                                <li>Spring 2022 Dean's List</li>
-                                <li>Fall 2021 Dean's List</li>
-                                <li>Electrical Lead of Blitz Booth - Champion, CMU Spring Carnival</li>
-                                <li>Vocal International Championship of Collegiate A Cappella (ICCA) Regional Runners-up</li>
-                                <li>Tartanhacks 2022 - Figma Award for Best Design</li>
-                                <li>Hack112 - Top 5 Teams (Honorable Mention)</li>
+                                <li>Specialized in doing research and development on Artificial Intelligence, Machine Learning, and Deep Learning algorithms. </li>
+                                <li>Not only picked up various programming languages, but also practiced techniques on how to build efficient software.</li>
+                                <li>Implemented matrix and linear transformations with deep reinforcement learning for probabilistic road map generation.</li>
+                                <li>Utilized combinatorial optimization to solve for shortest path finding (Traveling Salesman Problem) in Java and Python.</li>
+                                <li>Researched and Developed Convolutional Neural Networks for Optical Character Recognition.</li>
+                            </ul>
+                            <b>Skills:</b>
+                            <ul>
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>Data Science and Analytics</li>
+                                <li>Machine Learning, Deep Learning, Reinforcement Learning</li>
+                                <li>Computer Vision</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <hr></hr>
+                   {/* Artificial Intelligence Intern*/}
+                   <tr className = "Company-name">
+                        <td width="80%">Member of Teaching Team</td>
+                        <td className = "Date" width="20%">Apr 2021 - May 2021</td>
+                    </tr>
+                    <tr>
+                        <td className = "Job-scope">Stanford University, United States of America</td>
+                    </tr>
+                    <tr>
+                        <td className = "Description">
+                            <br></br>
+                            <b>Department:</b> Air Systems
+                            <br></br>
+                            <br></br>
+                            <b>Description:</b>
+                            <ul>
+                                <li>Section leader for Stanford University's Code In Place, April - May 2021. This online course was offered by Stanford University 
+                                    during the COVID-19 pandemic. The course is a 6-week introduction to Python programming using materials from the first half of Stanford’s CS106A course. </li>
+                                <li>As a volunteer section leader, I prepared and taught a weekly discussion section of 8-10 students to supplement professors' lectures.</li>
+                            </ul>
+                            <b>Skills:</b>
+                            <ul>
+                                <li>Python</li>
+                                <li>Teaching</li>
+                                <li>Leadership</li>
                             </ul>
                         </td>
                     </tr>
@@ -113,12 +169,40 @@ export default function Experience() {
                             <br></br>
                             <b>Awards and Recognitions:</b>
                             <ul>
-                                <li>Spring 2022 Dean's List</li>
-                                <li>Fall 2021 Dean's List</li>
-                                <li>Electrical Lead of Blitz Booth - Champion, CMU Spring Carnival</li>
-                                <li>Vocal International Championship of Collegiate A Cappella (ICCA) Regional Runners-up</li>
-                                <li>Tartanhacks 2022 - Figma Award for Best Design</li>
-                                <li>Hack112 - Top 5 Teams (Honorable Mention)</li>
+                                <li>NSF of the Year 2021</li>
+                                <li>Chief of Signals Letter of Commendation</li>
+                                <li>Early promotion to Lieutenant</li>
+                                <li>IPPT Gold Award</li>
+                                <li>Marksmanship Award</li>
+                            </ul>
+                            <b>Grades:</b>
+                            <ul>
+                                <li>Overall Performance: Outstanding</li>
+                                <li>Overall Conduct: Outstanding</li>
+                            </ul>
+                            <b>National Service Milestones:</b>
+                            <ul>
+                                <li>Army High Readiness Standby Force</li>
+                                <li>SAF Support for Enhanced Homeland Security Operations</li>
+                            </ul>
+                            <b>Courses:</b>
+                            <ul>
+                                <li>Cisco Certified Network Academy (CCNA): Introduction to Networks</li>
+                                <li>Signal Officer Cadet Course</li>
+                                <li>Officer Cadet School</li>
+                                <li>Basic Military Training (Leadership) Course</li>
+                            </ul>
+                            <b>Description:</b>
+                            <ul>
+                            <li>I was a Platoon Commander in Echo Company, 10th Command, Control, Communications, 
+                                Computers and Intelligence (10 C4I) Battalion. As a Platoon Commander, I was in 
+                                charge of planning real-time security operations for major events. </li>
+                            <li>Throughout my term, I studied our system's capabilities in depth and created 
+                                fundamental lesson slides for future planners and operators. I also wrote mathematical 
+                                programs related to signals to supplement operational requirements. Furthermore, as the 
+                                only Platoon Commander for a few months, I took charge of all training and administrative 
+                                matters for all three platoons simultaneously.</li>
+                            <li>I voluntarily extended my service for 3 months to conduct two major exercises and refine the company's training.</li>
                             </ul>
                         </td>
                     </tr>
@@ -134,14 +218,12 @@ export default function Experience() {
                     <tr>
                         <td className = "Description">
                             <br></br>
-                            <b>Awards and Recognitions:</b>
+                            <b>Description:</b>
                             <ul>
-                                <li>Spring 2022 Dean's List</li>
-                                <li>Fall 2021 Dean's List</li>
-                                <li>Electrical Lead of Blitz Booth - Champion, CMU Spring Carnival</li>
-                                <li>Vocal International Championship of Collegiate A Cappella (ICCA) Regional Runners-up</li>
-                                <li>Tartanhacks 2022 - Figma Award for Best Design</li>
-                                <li>Hack112 - Top 5 Teams (Honorable Mention)</li>
+                                <li>My team sought smart and sustainable 
+                                    engineering initiatives to revitalize a car-lite city 
+                                    and evergreen forest town. We emerged runners-up in the LTA 
+                                    Express contest among many other teams of interns</li>
                             </ul>
                         </td>
                     </tr>
