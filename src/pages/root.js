@@ -1,6 +1,7 @@
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
 
 import Home from './home'
+import About from './about'
 import Education from './education'
 import Experience from './experience'
 import Projects from './projects'
@@ -15,6 +16,7 @@ export default function Root() {
       <div>
         <nav>
           <li><a href="/home">Home</a></li>
+          <li><a href="/about">About</a></li>
           <li><a href="/education">Education</a></li>
           <li><a href="/experience">Work Experience</a></li>
           <li><a href="/projects">Projects</a></li>
@@ -25,6 +27,7 @@ export default function Root() {
         <BrowserRouter>
           <Routes>
             <Route path = "/home" element = {<Home />} />
+            <Route path = "/about" element = {<About />} />
             <Route path = "/education" element = {<Education />} />
             <Route path = "/experience" element = {<Experience />} />
             <Route path = "/projects" element = {<Projects />} />
