@@ -1,0 +1,36 @@
+.Root {
+  text-align: center;
+}
+
+.My-selfie {
+  height: 50vmin;
+  pointer-events: none;
+}
+
+.Root-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.My-Name {
+  font-size: calc(20px + 2vmin);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-bottom: 1px;
+}
+
+.Role {
+  font-size: calc(10px + 2vmin);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 20px;
+}
+
+.Root-link {
+  color: #61dafb;
+}
