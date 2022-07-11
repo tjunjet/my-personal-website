@@ -1,8 +1,8 @@
 // Import images
 import cLogo from '../assets/images/C_logo.png';
-import pythonLogo from '../assets/images/Python-logo.png'
+import pythonLogo from '../assets/images/python-logo.webp'
 import javaLogo from '../assets/images/Java-logo.png'
-import htmlLogo from '../assets/images/html-logo.svg'
+import htmlLogo from '../assets/images/html-logo.png'
 import cssLogo from '../assets/images/css_logo.png'
 import javascriptLogo from '../assets/images/Javascript_logo.png'
 
@@ -13,7 +13,7 @@ import nodejsLogo from '../assets/images/NodeJS-logo.png'
 
 // Descriptions
 
-export const skillInfo = [
+export const programmingInfo = [
     {
         imgSrc: cLogo,
         skill: "C",

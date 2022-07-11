@@ -78,6 +78,8 @@ export default function Awards() {
                     <td className = "Year"> 2019</td>
                     <br></br>
                 </tr>
+                <tr className = "Organization"> Defence Science and Technology Agency, Ministry of Defence </tr>
+                <br></br>
                 <tr>
                     <td className = "Certificate-name"> 1st Runner Up, LTA Express </td>
                     <td className = "Year"> 2019</td>
