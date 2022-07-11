@@ -49,6 +49,8 @@ export default function About() {
                         </td>
                     </tr>
                 </table>
+                <br></br>
+                <br></br>
             </div>
         </body>
     )
