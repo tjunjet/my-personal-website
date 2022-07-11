@@ -29,7 +29,6 @@ function App() {
       {/* <section> */}
         {/* <BrowserRouter> */}
           <Routes>
-            <Route path = "/" element = {<Home />} />
             <Route path = "/about" element = {<About />} />
             <Route path = "/education" element = {<Education />} />
             <Route path = "/experience" element = {<Experience />} />
@@ -38,6 +37,7 @@ function App() {
             <Route path = "/awards" element = {<Awards />} />
             <Route path = "/certifications" element = {<Certifications />} />
             <Route path = "/volunteering" element = {<Volunteering />} />
+            <Route path = "/" element = {<Home />} />
           </Routes>
         {/* </BrowserRouter> */}
       {/* </section> */}
