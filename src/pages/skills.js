@@ -5,6 +5,8 @@ import { FunctionComponent } from 'react';
 import styled from 'styled-components';
 import { programmingInfo } from '../constants/programming_constants';
 import { softwareInfo } from '../constants/software_constants';
+import { machineLearningInfo } from '../constants/ml_constants';
+import { cyberInfo } from '../constants/cyber_constants';
 import { roboticsInfo } from '../constants/robotics_constants';
 import { engineeringInfo } from '../constants/engineering_constants';
 
@@ -56,6 +58,21 @@ export default function Skills() {
                         </p>
                     </p>
                 </div>
+                <h4> Machine Learning: </h4>
+              <div className = "StyledContainer">
+                    <p className = "StyledSection">
+                        <p className = "StyledCardSection">
+                          {machineLearningInfo.map((info) => {
+                              return (
+                                  <InfoCard
+                                  imgSrc={info.imgSrc}
+                                  name={info.name}
+                                  />
+                              );
+                              })}
+                        </p>
+                    </p>
+                </div>
                 <h4> Robotics: </h4>
               <div className = "StyledContainer">
                     <p className = "StyledSection">
@@ -76,6 +93,21 @@ export default function Skills() {
                     <p className = "StyledSection">
                         <p className = "StyledCardSection">
                           {engineeringInfo.map((info) => {
+                              return (
+                                  <InfoCard
+                                  imgSrc={info.imgSrc}
+                                  name={info.name}
+                                  />
+                              );
+                              })}
+                        </p>
+                    </p>
+                </div>
+                <h4> Cybersecurity: </h4>
+              <div className = "StyledContainer">
+                    <p className = "StyledSection">
+                        <p className = "StyledCardSection">
+                          {cyberInfo.map((info) => {
                               return (
                                   <InfoCard
                                   imgSrc={info.imgSrc}
