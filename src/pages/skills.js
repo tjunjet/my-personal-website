@@ -26,15 +26,14 @@ export default function Skills() {
               <div className = "StyledContainer">
                     <p className = "StyledSection">
                         <p className = "StyledCardSection">
-                        {skillInfo.map((info, i) => {
-                            return (
-                                <InfoCard
-                                imgSrc={info.imgSrc}
-                                name={info.name}
-                                key={i}
-                                />
-                            );
-                            })}
+                          {skillInfo.map((info) => {
+                              return (
+                                  <InfoCard
+                                  imgSrc={info.imgSrc}
+                                  name={info.name}
+                                  />
+                              );
+                              })}
                         </p>
                     </p>
                 </div>
