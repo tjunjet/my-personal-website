@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fa142b2d.css",
-    "main.js": "/static/js/main.04c22376.js",
+    "main.js": "/static/js/main.8f0fa6e8.js",
     "static/js/787.bbe01249.chunk.js": "/static/js/787.bbe01249.chunk.js",
     "static/media/about-me-photo.png": "/static/media/about-me-photo.5576ad64cea284cce036.png",
     "static/media/tjunjet_selfie.jpg": "/static/media/tjunjet_selfie.42fab8d8ca11a257af02.jpg",
@@ -32,11 +32,11 @@
     "static/media/Ubuntu-logo.svg": "/static/media/Ubuntu-logo.553bd1e0e4da0b27eb428492bac522cc.svg",
     "index.html": "/index.html",
     "main.fa142b2d.css.map": "/static/css/main.fa142b2d.css.map",
-    "main.04c22376.js.map": "/static/js/main.04c22376.js.map",
+    "main.8f0fa6e8.js.map": "/static/js/main.8f0fa6e8.js.map",
     "787.bbe01249.chunk.js.map": "/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa142b2d.css",
-    "static/js/main.04c22376.js"
+    "static/js/main.8f0fa6e8.js"
   ]
 }
