@@ -6,6 +6,7 @@ export default function Certifications() {
         <body>
             <div className = "Volunteer-header">
                 <h1>VOLUNTEERING</h1>
+                More to come!
             </div>
         </body>
     )

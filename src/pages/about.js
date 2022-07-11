@@ -13,8 +13,6 @@ export default function About() {
                         <td>Hello! I'm Tjun Jet, a sophomore who is currently studying 
                             Electrical and Computer Engineering at Carnegie Mellon University. 
                             My dream is to innovate a better world through smart and sustainable engineering.
-                            I hope that my determination to problem-solve coupled with strong interest
-                            for engineering will push me to devise solutions for the world's largest problems.
                             <br></br>
                             <br></br>
                             Since young, I was captivated by physics. 
