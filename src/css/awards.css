@@ -1,8 +1,8 @@
-.Certifications {
+.Awards {
   text-align: center;
 }
 
-.Certification-header {
+.Awards-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -15,20 +15,22 @@
   padding-left: 100px;
 }
 
-.Certificate-name {
+.Organization-name {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 25px;
 }
 
-.Organization {
+.Job-scope {
   font-style: italic;
-  font-size: 20px;
-  width: 20%;
-  text-align: left;
-  padding-left: 40px;
+  font-size: 18px;
+}
+
+.Description {
+  font-size: 17px;
+  /* padding-left: 10px; */
 }
 
 h1 {
   padding-top: 0px;
-  margin-bottom: -15px;
+  margin-bottom: 15px;
 }

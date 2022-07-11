@@ -6,6 +6,7 @@ import Education from './education'
 import Experience from './experience'
 import Projects from './projects'
 import Skills from "./skills"
+import Awards from './awards'
 import Certifications from './certifications'
 import Volunteering from './volunteering'
 
@@ -21,6 +22,7 @@ export default function Root() {
           <li><a href="/experience">Work Experience</a></li>
           <li><a href="/projects">Projects</a></li>
           <li><a href="/skills">Skills</a></li>
+          <li><a href="/awards">Awards</a></li>
           <li><a href="/certifications">Certifications</a></li>
           <li><a href="/volunteering">Volunteering</a></li>
         </nav>
@@ -33,6 +35,7 @@ export default function Root() {
               <Route path = "/experience" element = {<Experience />} />
               <Route path = "/projects" element = {<Projects />} />
               <Route path = "/skills" element = {<Skills />} />
+              <Route path = "/awards" element = {<Awards />} />
               <Route path = "/certifications" element = {<Certifications />} />
               <Route path = "/volunteering" element = {<Volunteering />} />
             </Routes>
