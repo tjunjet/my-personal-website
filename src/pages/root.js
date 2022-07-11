@@ -17,14 +17,14 @@ export default function Root() {
       <div>
         <nav>
           <li><a href="/">Home</a></li>
-          <li><a href="src/pages/about.js">About</a></li>
-          <li><a href="src/pages/education.js">Education</a></li>
-          <li><a href="src/pages/experience.js">Work Experience</a></li>
-          <li><a href="src/pages/projects.js">Projects</a></li>
-          <li><a href="src/pages/skills.js">Skills</a></li>
-          <li><a href="src/pages/awards.js">Awards</a></li>
-          <li><a href="src/pages/certifications.js">Certifications</a></li>
-          <li><a href="src/pages/volunteering.js">Volunteering</a></li>
+          <li><a href="pages/about.js">About</a></li>
+          <li><a href="pages/education.js">Education</a></li>
+          <li><a href="pages/experience.js">Work Experience</a></li>
+          <li><a href="pages/projects.js">Projects</a></li>
+          <li><a href="pages/skills.js">Skills</a></li>
+          <li><a href="pages/awards.js">Awards</a></li>
+          <li><a href="pages/certifications.js">Certifications</a></li>
+          <li><a href="pages/volunteering.js">Volunteering</a></li>
         </nav>
         <section>
           <BrowserRouter>
