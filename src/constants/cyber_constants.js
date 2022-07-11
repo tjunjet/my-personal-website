@@ -1,6 +1,6 @@
 // Import images
-import wiresharkLogo from '../assets/images/Solidworks_logo.png'
-import opensslLogo from '../assets/images/breadboard_logo.jpeg'
+import wiresharkLogo from '../assets/images/wireshark_logo.webp'
+import opensslLogo from '../assets/images/openssl_logo.png'
 
 // Descriptions
 

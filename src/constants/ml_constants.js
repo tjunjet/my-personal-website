@@ -1,8 +1,8 @@
 // Import images
-import tensorflowLogo from '../assets/images/Solidworks_logo.png'
-import pytorchLogo from '../assets/images/breadboard_logo.jpeg'
-import scikitLogo from '../assets/images/3d-printing-logo.webp'
-import opencvLogo from '../assets/images/3d-printing-logo.webp'
+import tensorflowLogo from '../assets/images/tensorflow_logo.png'
+import pytorchLogo from '../assets/images/pytorch_logo.png'
+import scikitLogo from '../assets/images/sklearn_logo.png'
+import opencvLogo from '../assets/images/OpenCV_Logo.png'
 
 // Descriptions
 

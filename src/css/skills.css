@@ -26,15 +26,15 @@
 }
 
 .StyledImage {
-  border-radius: 16px;
+  border-radius: 8px;
   min-width: 20px;
   width: 120%;
   height: 70%;
 }
 
 .StyledLogo {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
 }
 
 .StyledContainer {
