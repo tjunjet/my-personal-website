@@ -1,12 +1,8 @@
-td {
-  padding-right: 50px;
-}
-
-.About {
+.Volunteering {
   text-align: center;
 }
 
-.About-header {
+.Volunteer-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -15,17 +11,23 @@ td {
   color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  padding-top: 36px;
   padding-left: 100px;
 }
-.Description {
-  font-size: 20px;
-  text-align: justify;
+
+.Organization-name {
+  font-weight: bold;
+  font-size: 25px;
 }
 
-.My-Photo {
-  margin-top: 10px;
-  height: 70vmin;
-  pointer-events: none;
+.Job-scope {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.Description {
+  font-size: 17px;
+  /* padding-left: 10px; */
 }
 
 h1 {

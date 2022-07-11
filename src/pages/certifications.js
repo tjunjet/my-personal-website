@@ -1,9 +1,13 @@
 import '../css/root.css'
+import '../css/certifications.css'
 
 export default function Certifications() {
     return (
-        <div className = "Root-header">
-            Certifications
-        </div>
+        <body>
+            <div className = "Certification-header">
+                <h1>CERTIFICATIONS</h1>
+            </div>
+        </body>
+
     )
 }
