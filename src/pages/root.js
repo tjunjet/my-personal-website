@@ -26,8 +26,8 @@ export default function Root() {
           <li><a href="/certifications">Certifications</a></li>
           <li><a href="/volunteering">Volunteering</a></li>
         </nav>
-        <section>
-          {/* <HashRouter> */}
+        {/* <section>
+          <HashRouter> */}
             <Routes>
               <Route path = "/" element = {<Home />} />
               <Route path = "/about" element = {<About />} />
@@ -39,8 +39,8 @@ export default function Root() {
               <Route path = "/certifications" element = {<Certifications />} />
               <Route path = "/volunteering" element = {<Volunteering />} />
             </Routes>
-          {/* </HashRouter> */}
-        </section>
+          {/* </HashRouter>
+        </section> */}
       </div>
     );
   }
