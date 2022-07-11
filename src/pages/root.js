@@ -16,28 +16,28 @@ export default function Root() {
     return (
       <div>
         <nav>
-          <li><a href="">Home</a></li>
-          <li><a href="src/pages/about">About</a></li>
-          <li><a href="src/pages/education">Education</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="src/pages/about.js">About</a></li>
+          <li><a href="src/pages/education.js">Education</a></li>
           <li><a href="src/pages/experience.js">Work Experience</a></li>
-          <li><a href="src/pages/projects">Projects</a></li>
-          <li><a href="src/pages/skills">Skills</a></li>
-          <li><a href="src/pages/awards">Awards</a></li>
-          <li><a href="src/pages/certifications">Certifications</a></li>
-          <li><a href="src/pages/volunteering">Volunteering</a></li>
+          <li><a href="src/pages/projects.js">Projects</a></li>
+          <li><a href="src/pages/skills.js">Skills</a></li>
+          <li><a href="src/pages/awards.js">Awards</a></li>
+          <li><a href="src/pages/certifications.js">Certifications</a></li>
+          <li><a href="src/pages/volunteering.js">Volunteering</a></li>
         </nav>
         <section>
           <BrowserRouter>
             <Routes>
               <Route path = "/" element = {<Home />} />
-              <Route path = "about" element = {<About />} />
-              <Route path = "education" element = {<Education />} />
-              <Route path = "experience" element = {<Experience />} />
-              <Route path = "projects" element = {<Projects />} />
-              <Route path = "skills" element = {<Skills />} />
-              <Route path = "awards" element = {<Awards />} />
-              <Route path = "certifications" element = {<Certifications />} />
-              <Route path = "volunteering" element = {<Volunteering />} />
+              <Route path = "src/pages/about.js" element = {<About />} />
+              <Route path = "src/pages/education.js" element = {<Education />} />
+              <Route path = "src/pages/experience.js" element = {<Experience />} />
+              <Route path = "src/pages/projects.js" element = {<Projects />} />
+              <Route path = "src/pages/skills.js" element = {<Skills />} />
+              <Route path = "src/pages/awards.js" element = {<Awards />} />
+              <Route path = "src/pages/certifications.js" element = {<Certifications />} />
+              <Route path = "src/pages/volunteering.js" element = {<Volunteering />} />
             </Routes>
           </BrowserRouter>
         </section>
