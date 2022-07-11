@@ -30,14 +30,14 @@ export default function Root() {
           <BrowserRouter>
             <Routes>
               <Route path = "/" element = {<Home />} />
-              <Route path = "src/pages/about.js" element = {<About />} />
-              <Route path = "src/pages/education.js" element = {<Education />} />
-              <Route path = "src/pages/experience.js" element = {<Experience />} />
-              <Route path = "src/pages/projects.js" element = {<Projects />} />
-              <Route path = "src/pages/skills.js" element = {<Skills />} />
-              <Route path = "src/pages/awards.js" element = {<Awards />} />
-              <Route path = "src/pages/certifications.js" element = {<Certifications />} />
-              <Route path = "src/pages/volunteering.js" element = {<Volunteering />} />
+              <Route path = "pages/about.js" element = {<About />} />
+              <Route path = "pages/education.js" element = {<Education />} />
+              <Route path = "pages/experience.js" element = {<Experience />} />
+              <Route path = "pages/projects.js" element = {<Projects />} />
+              <Route path = "pages/skills.js" element = {<Skills />} />
+              <Route path = "pages/awards.js" element = {<Awards />} />
+              <Route path = "pages/certifications.js" element = {<Certifications />} />
+              <Route path = "pages/volunteering.js" element = {<Volunteering />} />
             </Routes>
           </BrowserRouter>
         </section>
