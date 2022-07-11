@@ -29,15 +29,15 @@ function App() {
       {/* <section> */}
         {/* <BrowserRouter> */}
           <Routes>
-            <Route path = "/about" element = {<About />} />
-            <Route path = "/education" element = {<Education />} />
-            <Route path = "/experience" element = {<Experience />} />
-            <Route path = "/projects" element = {<Projects />} />
-            <Route path = "/skills" element = {<Skills />} />
-            <Route path = "/awards" element = {<Awards />} />
-            <Route path = "/certifications" element = {<Certifications />} />
-            <Route path = "/volunteering" element = {<Volunteering />} />
             <Route path = "/" element = {<Home />} />
+            <Route path = "#/about" element = {<About />} />
+            <Route path = "#/education" element = {<Education />} />
+            <Route path = "#/experience" element = {<Experience />} />
+            <Route path = "#/projects" element = {<Projects />} />
+            <Route path = "#/skills" element = {<Skills />} />
+            <Route path = "#/awards" element = {<Awards />} />
+            <Route path = "#/certifications" element = {<Certifications />} />
+            <Route path = "#/volunteering" element = {<Volunteering />} />
           </Routes>
         {/* </BrowserRouter> */}
       {/* </section> */}
