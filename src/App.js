@@ -28,7 +28,7 @@ function App() {
       </nav>
       {/* <section> */}
         {/* <BrowserRouter> */}
-          <Routes>
+          <Switch>
             <Route path = "/" element = {<Home />} />
             <Route path = "/about" element = {<About />} />
             <Route path = "/education" element = {<Education />} />
@@ -38,7 +38,7 @@ function App() {
             <Route path = "/awards" element = {<Awards />} />
             <Route path = "/certifications" element = {<Certifications />} />
             <Route path = "/volunteering" element = {<Volunteering />} />
-          </Routes>
+          </Switch>
         {/* </BrowserRouter> */}
       {/* </section> */}
     </div>
