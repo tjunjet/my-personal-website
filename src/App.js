@@ -28,7 +28,8 @@ function App() {
       </nav>
       {/* <section> */}
         {/* <BrowserRouter> */}
-          <Routes>
+        <section>
+        <Routes>
             <Route path = "/" element = {<Home />} />
             <Route path = "/about" element = {<About />} />
             <Route path = "/education" element = {<Education />} />
@@ -39,6 +40,7 @@ function App() {
             <Route path = "/certifications" element = {<Certifications />} />
             <Route path = "/volunteering" element = {<Volunteering />} />
           </Routes>
+        </section>
         {/* </BrowserRouter> */}
       {/* </section> */}
     </div>
