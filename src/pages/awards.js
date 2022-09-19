@@ -10,6 +10,13 @@ export default function Awards() {
                 <hr></hr>
                 <br></br>
                 <tr>
+                    <td className = "Certificate-name"> 1st Runners Up</td>
+                    <td className = "Year">2022</td>
+                    <br></br>
+                </tr>
+                <tr className = "Organization">HackCMU, Carnegie Mellon Univeresity</tr>
+                <br></br>
+                <tr>
                     <td className = "Certificate-name"> Champion, Best MVP</td>
                     <td className = "Year">2022</td>
                     <br></br>

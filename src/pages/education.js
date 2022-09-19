@@ -26,10 +26,11 @@ export default function Education() {
                             <ul>
                                 <li>Spring 2022 Dean's List</li>
                                 <li>Fall 2021 Dean's List</li>
-                                <li>Electrical Lead of Blitz Booth - Champion, CMU Spring Carnival</li>
-                                <li>Vocal International Championship of Collegiate A Cappella (ICCA) Regional Runners-up</li>
-                                <li>Tartanhacks 2022 - Figma Award for Best Design</li>
-                                <li>Hack112 - Top 5 Teams (Honorable Mention)</li>
+                                <li>1st Runners Up - HackCMU 2022</li>
+                                <li>Champion, CMU Spring Carnival - Electrical Lead of Blitz Booth</li>
+                                <li>Regional Runners-up - Vocal International Championship of Collegiate A Cappella (ICCA)</li>
+                                <li>Figma Award for Best Design - Tartanhacks 2022</li>
+                                <li>Top 5 Teams - Hack112 (Honorable Mention)</li>
                             </ul>
                             <b>Activities and Societies:</b>
                             <ul>
@@ -47,10 +48,9 @@ export default function Education() {
                             <ul>
                             <li>16-861: Space Robotics</li>
                             <li>18-213: Computer Systems</li>
-                            <li>18-220: Electronic Devices and Analog Circuits</li>
+                            <li>18-290: Signals and Systems</li>
                             <li>36-225: Introduction to Probability Theory</li>
                             <li>70-395: Funding Entrepreneurial Ventures</li>
-                            <li>98-177: Build your Own Website: Web Development</li>
                             </ul>
                             <u>Spring 2022</u>
                             <ul>

@@ -10,6 +10,44 @@ export default function Projects() {
                     <hr></hr>
                     {/* Soldier Strong */}
                     <tr className = "Project-name">
+                        <td width="80%">Take TO Wake</td>
+                        <td className = "Date" width="20%">Sep 2022</td>
+                    </tr>
+                    <tr>
+                        <td className = "Job-scope">1st Runners-Up, HackCMU 2022</td>
+                    </tr>
+                    <tr>
+                        <td className = "Description">
+                            <br></br>
+                            <b><u>Description</u></b>
+                            <br></br>
+                            <br></br>
+                            An alarm application where you can only turn off the alarm
+                            upon completing the task. The task involves taking a photo with an item 
+                            in your house, which will be verified using a computer vision algorithm.
+                            The stack involves using React-Native as the front-end application builder,
+                            Flask for backend server, and Firebase for data storage.
+                            <br></br>
+                            <br></br>
+                            <b><u>App Features</u></b>
+                            <ul>
+                                <li>Alarm</li>
+                                <li>Computer Vision</li>
+                                <li>Interactive Dashboard</li>
+                                <li>Gamification</li>
+                            </ul>
+                            <b><u>Tech Stack</u></b>
+                            <ul>
+                                <li>React Native Expo</li>
+                                <li>Firebase Cloud Firestore</li>
+                                <li>Flask</li>
+                                <li>YoloV5</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <hr></hr>
+                    {/* Soldier Strong */}
+                    <tr className = "Project-name">
                         <td width="80%">Fitness Tracker App "Soldier Strong" </td>
                         <td className = "Date" width="20%">Jun 2022</td>
                     </tr>
